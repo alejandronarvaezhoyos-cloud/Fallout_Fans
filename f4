@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fallout Wiki | Enciclopedia del Yermo</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #10140f;
+  color: #e1e8d5;
+  font-family: Arial, sans-serif;
+}
+header {
+  background: #20291c;
+  border-bottom: 3px solid #a8cf55;
+  text-align: center;
+  padding: 30px 15px;
+}
+h1 { color: #b9ef64; font-size: 36px; }
+header p { color: #d0d9c5; }
+nav {
+  background: #303a29;
+  padding: 14px;
+  text-align: center;
+}
+nav a {
+  color: #d1f68c;
+  margin: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+main { max-width: 950px; margin: auto; padding: 20px; }
+h2 { color: #b9ef64; border-bottom: 1px solid #536543; padding-bottom: 8px; }
+.card {
+  background: #20291c;
+  border: 1px solid #536543;
+  border-radius: 8px;
+  padding: 18px;
+  margin: 16px 0;
+}
+.card h3 { color: #d1f68c; }
+.tag { color: #b9ef64; font-weight: bold; }
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #20291c;
+  color: #bfcab3;
+}
+a { color: #d1f68c; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>☢ FALLOUT WIKI ☢</h1>
+  <p>Enciclopedia del Yermo · Datos, historia y supervivencia</p>
+</header>
+
+<nav>
+  <a href="#historia">Historia</a>
+  <a href="#juegos">Juegos</a>
+  <a href="#armaduras">Armaduras</a>
+  <a href="#facciones">Facciones</a>
+  <a href="#criaturas">Criaturas</a>
+</nav>
+
+<main>
+  <section id="historia">
+    <h2>📜 Historia del mundo</h2>
+    <div class="card">
+      <p>Fallout es una saga de videojuegos de rol y acción
+      ambientada en un futuro alternativo, marcado por una
+      guerra nuclear que devastó gran parte del planeta.</p>
+      <p>Su universo combina tecnología retrofuturista,
+      exploración, supervivencia y decisiones que afectan
+      el destino de las comunidades del Yermo.</p>
+    </div>
+  </section>
+
+  <section id="juegos">
+    <h2>🎮 Juegos de la saga</h2>
+    <div class="card">
+      <h3>Fallout</h3>
+      <p>El juego original de 1997. Comienza con una misión
+      para encontrar un chip de agua para el Refugio 13.</p>
+    </div>
+    <div class="card">
+      <h3>Fallout 2</h3>
+      <p>Continuación ambientada décadas después del primer juego.</p>
+    </div>
+    <div class="card">
+      <h3>Fallout 3</h3>
+      <p>Explorá el Yermo de la Capital y sus ruinas.</p>
+    </div>
+    <div class="card">
+      <h3>Fallout: New Vegas</h3>
+      <p>Viajá por el Mojave y descubrí la lucha por el control
+      de New Vegas.</p>
+    </div>
+    <div class="card">
+      <h3>Fallout 4</h3>
+      <p>Explorá la Commonwealth, construí asentamientos y
+      descubrí el misterio de tu hijo desaparecido.</p>
+    </div>
+    <div class="card">
+      <h3>Fallout 76</h3>
+      <p>Una experiencia multijugador ambientada en Appalachia.</p>
+    </div>
+  </section>
+
+  <section id="armaduras">
+    <h2>🦾 Armaduras de combate</h2>
+    <div class="card">
+      <h3>T-45</h3>
+      <p>Uno de los primeros modelos de armadura de combate
+      utilizados por las fuerzas estadounidenses.</p>
+    </div>
+    <div class="card">
+      <h3>T-51</h3>
+      <p>Un modelo avanzado anterior a la Gran Guerra,
+      conocido por su diseño característico.</p>
+    </div>
+    <div class="card">
+      <h3>T-60</h3>
+      <p>Una armadura muy reconocible, utilizada por la
+      Hermandad del Acero en Fallout 4.</p>
+    </div>
+    <div class="card">
+      <h3>X-01</h3>
+      <p>Una armadura experimental avanzada, especialmente
+      conocida por su protección y aspecto intimidante.</p>
+    </div>
+  </section>
+
+  <section id="facciones">
+    <h2>🛡️ Facciones</h2>
+    <div class="card">
+      <h3>Hermandad del Acero</h3>
+      <p>Organización militar que busca preservar y controlar
+      tecnología avanzada del mundo anterior a la guerra.</p>
+    </div>
+    <div class="card">
+      <h3>Enclave</h3>
+      <p>Organización que afirma representar la continuidad
+      del gobierno estadounidense anterior a la guerra.</p>
+    </div>
+    <div class="card">
+      <h3>La RNC</h3>
+      <p>La República de Nueva California es una república
+      expansionista importante en varios juegos.</p>
+    </div>
+  </section>
+
+  <section id="criaturas">
+    <h2>☣️ Criaturas del Yermo</h2>
+    <div class="card">
+      <h3>Sanguinarios</h3>
+      <p>Depredadores extremadamente peligrosos que pueden
+      acabar con viajeros poco preparados.</p>
+    </div>
+    <div class="card">
+      <h3>Necrófagos</h3>
+      <p>Humanos transformados por la radiación. Algunos
+      conservan su inteligencia y personalidad.</p>
+    </div>
+    <div class="card">
+      <h3>Mutascorpius</h3>
+      <p>Escorpiones mutados que representan un peligro
+      en diferentes regiones del Yermo.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>☢ Fallout Wiki — Enciclopedia hecha por fans.</p>
+  <p>Fallout pertenece a sus respectivos propietarios.
+  Sitio de aficionados no oficial.</p>
+</footer>
+
+</body>
+</html>
