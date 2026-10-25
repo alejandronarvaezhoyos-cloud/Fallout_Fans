@@ -1,0 +1,48 @@
+:root{--azul:#12263f;--azul2:#1c3a5e;--amarillo:#f2c230;--papel:#f3ead0;--rojo:#e0483c;--verde:#6fcf8a;--celeste:#6cb7e8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--azul);color:var(--papel);font:18px/1.55 "Trebuchet MS",Verdana,sans-serif}
+a{color:var(--amarillo)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--amarillo);outline-offset:2px}
+h1,h2,h3{font-family:Impact,"Arial Black",sans-serif;font-weight:400;letter-spacing:.02em;line-height:1.1}
+header.top{background:#0c1a2c;border-bottom:4px solid var(--amarillo)}
+nav{max-width:860px;margin:0 auto;padding:12px 20px;display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+nav .logo{font-family:Impact,"Arial Black",sans-serif;font-size:22px;color:var(--amarillo);text-decoration:none;margin-right:auto}
+nav a{text-decoration:none;color:var(--papel)}
+nav a[aria-current]{color:var(--amarillo);border-bottom:3px solid var(--amarillo)}
+main{max-width:860px;margin:0 auto;padding:28px 20px 60px}
+.hero{display:flex;gap:28px;align-items:center;flex-wrap:wrap;padding:20px 0 30px}
+.puerta{flex:0 0 150px;height:150px;border-radius:50%;background:var(--amarillo);color:var(--azul);display:grid;place-items:center;font:64px Impact,"Arial Black",sans-serif;border:8px solid #0c1a2c;box-shadow:0 0 0 4px var(--amarillo)}
+.hero h1{font-size:46px;margin:0 0 8px}
+.hero p{margin:0;max-width:480px}
+.botones{display:flex;gap:14px;flex-wrap:wrap;margin:22px 0}
+.btn{display:inline-block;background:var(--amarillo);color:var(--azul);padding:10px 20px;border-radius:6px;text-decoration:none;font-weight:bold}
+.btn.sec{background:transparent;color:var(--amarillo);border:2px solid var(--amarillo)}
+.herramientas{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+input[type=search]{flex:1 1 220px;padding:10px 12px;font:inherit;border-radius:6px;border:2px solid var(--amarillo);background:#0c1a2c;color:var(--papel)}
+.chips button{font:inherit;background:transparent;color:var(--papel);border:2px solid var(--papel);border-radius:20px;padding:6px 14px;cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--amarillo);color:var(--azul);border-color:var(--amarillo)}
+.entry{background:var(--azul2);border-left:8px solid var(--amarillo);border-radius:4px;padding:14px 18px;margin:14px 0}
+.entry h3{margin:0 0 4px;font-size:26px}
+.entry p{margin:6px 0 0}
+.entry .cat{font-size:15px;opacity:.8}
+.entry[data-cat=facciones]{border-color:var(--rojo)}
+.entry[data-cat=lugares]{border-color:var(--verde)}
+.entry[data-cat=criaturas]{border-color:#c98bf0}
+.entry[data-cat=objetos]{border-color:var(--celeste)}
+.entry[hidden]{display:none}
+.vacio{opacity:.8}
+.ayuda{background:#0c1a2c;border:2px dashed var(--amarillo);border-radius:6px;padding:12px 16px;margin:20px 0}
+.ayuda code{color:var(--amarillo)}
+footer{max-width:860px;margin:0 auto;padding:20px;font-size:15px;opacity:.75;border-top:1px solid var(--azul2)}
+@media(max-width:560px){.hero h1{font-size:36px}.puerta{flex-basis:110px;height:110px;font-size:46px}}
+.entry[data-cat=aliados]{border-color:#4fd1c5}
+.entry[data-cat=armas]{border-color:#ff9a3d}
+.entry[data-cat=enemigos]{border-color:#c98bf0}
+.chips button[data-cat=companeros]{border-bottom-color:var(--amarillo)}
+.chips button[data-cat=aliados]{border-bottom-color:#4fd1c5}
+.chips button[data-cat=facciones]{border-bottom-color:var(--rojo)}
+.chips button[data-cat=enemigos]{border-bottom-color:#c98bf0}
+.chips button[data-cat=armas]{border-bottom-color:#ff9a3d}
+.chips button[data-cat=lugares]{border-bottom-color:var(--verde)}
+.chips button[data-cat=objetos]{border-bottom-color:var(--celeste)}
+.chips button{border-bottom-width:5px}
